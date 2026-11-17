@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Kalam:wght@400;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f3f4f6;
+  margin: 0;
+  padding: 0;
+}
+
+.font-handwritten {
+  font-family: 'Kalam', cursive;
+}
+
+@media print {
+  @page {
+    margin: 0;
+    size: A4 landscape;
+  }
+
+  body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .print-visible {
+    display: flex !important;
+    visibility: visible !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 297mm;
+    height: 210mm;
+    margin: 0;
+    padding: 10mm;
+    box-sizing: border-box;
+  }
+
+  .challan-container {
+    box-shadow: none !important;
+    border: none !important;
+    width: 100% !important;
+    max-width: none !important;
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 5mm;
+  }
+
+  input,
+  select {
+    border: none !important;
+    background: transparent !important;
+    padding: 0 !important;
+  }
+
+  .print-bg-red {
+    background-color: #D32F2F !important;
+    color: white !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}

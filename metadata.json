@@ -1,0 +1,7 @@
+{
+  "name": "Smart Challan Generator",
+  "description": "An AI-powered web utility for generating India Post Office savings bank challans with OCR and regional language support.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
