@@ -2,6 +2,8 @@
 
 An AI-powered, modern web application designed for the **Department of Posts (India)** to streamline and automate the generation of **Post Office Savings Bank (POSB) Pay-in Slips (SB-103)**.
 
+Live Demo : https://smart-challan-generator.vercel.app/
+
 ---
 
 ## 🌟 Overview
